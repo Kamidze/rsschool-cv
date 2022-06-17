@@ -11,34 +11,83 @@
     <title>CV</title>
 </head>
 <body>
-    <header class="header">
-      <element class="container">
-          <nav class="nav">
-              <ul class="nav-list">
-                <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#Summary" class="nav-link">Summary</a></li>
-                <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
-                <li class="nav-item"><a href="#Projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
+    <header>
+          <nav class="nav-header">
+              <ul class="header-container">
+                <li><a href="#Contacts" class="nav-link">Contacts</a></li>
+                <li><a href="#Summary" class="nav-link">Summary</a></li>
+                <li><a href="#Skills" class="nav-link">Skills</a></li>
+                <li><a href="#Code" class="nav-link">Code</a></li>
+                <li><a href="#Projects" class="nav-link">Projects</a></li>
+                <li><a href="#Education" class="nav-link">Education</a></li>
+                <li><a href="#Languages" class="nav-link">Languages</a></li>
+                <li><a href="#Courses" class="nav-link">Courses</a></li>
               </ul>
           </nav> 
-          <img src="./assets/img/photo_2022-06-13_21-02-43.jpg" alt="my photo">
-          <h1>MIKALAI PADDUBNY</h1>
-          <p>JUNIOR FRONT-END DEVELOPER</p>
-      </element>
     </header>
-       <main class="main">
-         <element class="container">
-
-         </element>
+       <main>
+         <div class="main-container">
+           <section class="section" id="profile">
+             <img src="./assets/img/photo_2022-06-13_21-02-43.jpg" width="150" alt="my photo">
+             <h1>MIKALAI PADDUBNY</h1>
+              <p>JUNIOR FRONT-END DEVELOPER</p>
+           </section>
+                 <section class="section" id="Contacts">
+                  <h2>Contacts</h2>
+                  <ul>
+                    <li>Minsk, Belarus</li>
+                    <li>Email: Poddubni88@gmail.com</li>
+                    <li>Github: Kamidze</li>
+                    <li>Discord: Kam#2936</li></ul>
+                 </section>
+                  <section class="section" id="Summary">
+                    <h2>Summary</h2>
+                    <p>I like programming. It is fascinating and interesting.
+                       I have a main job, programming is a hobby for me.
+                       I would like to work under the guidance of an experienced developer to gain practical experience.</p>
+                  </section>
+                     <section class="section" id="Skills">
+                        <h2>Skills</h2>
+                        <ul><li>Web development: HTML5,CSS3,JavaScript</li>
+                            <li>Frameworks and libraries: React</li>
+                            <li>Version control: Git, GIThub</li>
+                            <li>Graphics: Figma</li></ul>
+                      </section>
+                          <section class="section" id="Code">
+                            <h2>Code</h2>
+                               <pre> <code>
+                                function getParticipants(handshakes){
+                                let farmers = 0
+                                while(handshakes > farmers * (farmers - 1) / 2){
+                                farmers++
+                                }
+                               return farmers
+                               }</code></pre>
+                          </section>
+                              <section class="section" id="Courses">
+                                <h2>Courses</h2>
+                                <p>The Rolling Scopes School</p>
+                              </section>
+                                  <section class="section" id="Projects">
+                                    <h2>Projects</h2>
+                                    <p>https://kamidze.github.io/rsschool-cv/</p>
+                                  </section>
+                                      <section class="section" id="Education">
+                                        <h2>Education</h2>
+                                        <p>Belarusian State University of Informatics and Radioelectronics</p>
+                                      </section>
+                                        <section class="section" id="English">
+                                          <h2>English</h2>
+                                          <p>A2-Elementary</p>
+                                        </section>                                
+         </div>
        </main>
-            <footer class="footer">
-              <element class="container">
-
-              </element> 
+            <footer>
+              <div class="footer-container">
+                <div>2022</div>
+                <div><a href="https://github.com/Kamidze" class="auther">MIKALAI PADDUBNY</a></div>
+                <div class="logo"><a href="https://rs.school/js/"><img src="/assets/logo/rs_school_js.svg" width="100" alt="logo-rs"></a></div>
+              </div> 
             </footer>
-
 </body>
 </html>
